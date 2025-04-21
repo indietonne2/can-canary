@@ -1,0 +1,141 @@
+<!--
+Project: can-canary Website
+Domain: CanCanary.de
+Author: Thomas Fischer
+Structure:
+/
+├─ index.html
+├─ impressum.html
+└─ assets/
+   └─ css/
+       └─ style.css
+-->
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CanCanary – CAN-Bus Simulator</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<nav class="menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://github.com/indietonne2/can-canary" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <img src="assets/img/logo.png" alt="CanCanary logo" class="logo" />
+    <h1>CanCanary</h1>
+    <p>Lightweight CAN-Bus Simulator for Car-Hackers &amp; IT-Security Nerds</p>
+</header>
+
+<main class="content">
+    <section>
+        <h2>Welcome</h2>
+        <p>
+            CanCanary is an open-source CAN-Bus simulation toolkit. Ideal for workshops,
+            demos, and hands-on IT-security training.
+        </p>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>© 2025 Thomas Fischer</p>
+</footer>
+</body>
+</html>
+
+
+<!-- impressum.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impressum – CanCanary</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<nav class="menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://github.com/indietonne2/can-canary" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+</nav>
+
+<main class="content">
+    <section>
+        <h1>Impressum</h1>
+        <p>Thomas Fischer<br>
+            Address Line 1<br>
+            Address Line 2<br>
+            Email: <a href="mailto:info@cancanary.de">info@cancanary.de</a>
+        </p>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>© 2025 Thomas Fischer</p>
+</footer>
+</body>
+</html>
+
+
+/* assets/css/style.css */
+body {
+margin: 0;
+font-family: 'Segoe UI', Tahoma, monospace;
+background: #111;
+color: #eee;
+line-height: 1.6;
+}
+
+.menu {
+background: #1a1a1a;
+padding: 0.5rem 1rem;
+}
+.menu ul {
+list-style: none;
+display: flex;
+gap: 1rem;
+margin: 0;
+padding: 0;
+}
+.menu a {
+color: #4caf50;
+text-decoration: none;
+font-weight: bold;
+}
+.menu a:hover {
+text-decoration: underline;
+}
+
+.hero {
+text-align: center;
+padding: 2rem 1rem;
+}
+.logo {
+max-width: 120px;
+display: block;
+margin: 0 auto 1rem;
+}
+
+.content {
+padding: 1rem;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.footer {
+text-align: center;
+padding: 1rem;
+background: #1a1a1a;
+font-size: 0.9rem;
+}
